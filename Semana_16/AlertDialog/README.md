@@ -1,11 +1,11 @@
 # Janelas de Diálogo
 
-Aplicação para demonstrar opções para explorar o recurso "Janelas de Diálogo" no iOS, com Swift.
+[Aplicação](https://github.com/valeriacavalcanti/PDM-2020.2-R/blob/main/Semana_16/AlertDialog/imagens/principal.png) para demonstrar opções para explorar o recurso "Janelas de Diálogo" no iOS, com Swift.
 
 
 ## Popup - Simples
 
-Janela para apresentar uma mensagem simples. 
+[Janela](https://github.com/valeriacavalcanti/PDM-2020.2-R/blob/main/Semana_16/AlertDialog/imagens/alerta_simples.png) para apresentar uma mensagem simples. 
 
     let janela = UIAlertController(title: "Título", message: "Mensagem", preferredStyle: UIAlertController.Style.alert)
     janela.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
@@ -13,7 +13,7 @@ Janela para apresentar uma mensagem simples.
 
 ## Popup - Com Ação
 
-Janela com botões, cada um executando sua respectiva ação.
+[Janela](https://github.com/valeriacavalcanti/PDM-2020.2-R/blob/main/Semana_16/AlertDialog/imagens/alerta_com_acao.png) com botões, cada um executando sua respectiva ação.
 
     let janela = UIAlertController(title: "Título", message: "Mensagem", preferredStyle: UIAlertController.Style.alert)
 	janela.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { alertAction in
@@ -26,7 +26,7 @@ Janela com botões, cada um executando sua respectiva ação.
 
 ## Menu com Opções
 
-Menu de opções (bottom-up). Cada uma executando sua respectiva ação.
+[Menu](https://github.com/valeriacavalcanti/PDM-2020.2-R/blob/main/Semana_16/AlertDialog/imagens/menu_com_opcoes.png) de opções (bottom-up). Cada uma executando sua respectiva ação.
 
     let menu = UIAlertController(title: "Título", message: "Mensagem", preferredStyle: UIAlertController.Style.actionSheet)
     menu.addAction(UIAlertAction(title: "Opção 1", style: UIAlertAction.Style.default, handler: { alertAction in
@@ -45,7 +45,7 @@ Menu de opções (bottom-up). Cada uma executando sua respectiva ação.
 
 ## Input
 
-Janela com caixa de texto e botão para executar respectiva ação.
+[Janela](https://github.com/valeriacavalcanti/PDM-2020.2-R/blob/main/Semana_16/AlertDialog/imagens/input.png) com caixa de texto e botão para executar respectiva ação.
 
     let input = UIAlertController(title: "Título", message: "Mensagem", preferredStyle: UIAlertController.Style.alert)
     input.addTextField { textField in
