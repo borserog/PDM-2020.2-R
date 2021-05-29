@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A73FD882641CC8800087FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73FD872641CC8800087FFB /* AppDelegate.swift */; };
+		3A73FD8A2641CC8800087FFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73FD892641CC8800087FFB /* SceneDelegate.swift */; };
+		3A73FD8C2641CC8800087FFB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73FD8B2641CC8800087FFB /* MainViewController.swift */; };
+		3A73FD8F2641CC8800087FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FD8D2641CC8800087FFB /* Main.storyboard */; };
+		3A73FD912641CC8D00087FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FD902641CC8D00087FFB /* Assets.xcassets */; };
+		3A73FD942641CC8D00087FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FD922641CC8D00087FFB /* LaunchScreen.storyboard */; };
+		3A73FD9C2641CD0700087FFB /* Forca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73FD9B2641CD0700087FFB /* Forca.swift */; };
+		3A73FD9E2641CE7800087FFB /* ResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73FD9D2641CE7800087FFB /* ResultadoViewController.swift */; };
+		3A73FDAE264223A100087FFB /* forca1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FDA3264223A100087FFB /* forca1.png */; };
+		3A73FDAF264223A100087FFB /* forca5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FDA4264223A100087FFB /* forca5.png */; };
+		3A73FDB0264223A100087FFB /* forca6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FDA5264223A100087FFB /* forca6.png */; };
+		3A73FDB1264223A100087FFB /* forca8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FDA6264223A100087FFB /* forca8.png */; };
+		3A73FDB2264223A100087FFB /* forca10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FDA7264223A100087FFB /* forca10.png */; };
+		3A73FDB3264223A100087FFB /* forca3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FDA8264223A100087FFB /* forca3.png */; };
+		3A73FDB4264223A100087FFB /* forca7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FDA9264223A100087FFB /* forca7.png */; };
+		3A73FDB5264223A100087FFB /* forca9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FDAA264223A100087FFB /* forca9.png */; };
+		3A73FDB6264223A100087FFB /* forca0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FDAB264223A100087FFB /* forca0.png */; };
+		3A73FDB7264223A100087FFB /* forca2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FDAC264223A100087FFB /* forca2.png */; };
+		3A73FDB8264223A100087FFB /* forca4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A73FDAD264223A100087FFB /* forca4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A73FD842641CC8800087FFB /* Jogo da Forca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jogo da Forca.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A73FD872641CC8800087FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A73FD892641CC8800087FFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A73FD8B2641CC8800087FFB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3A73FD8E2641CC8800087FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A73FD902641CC8D00087FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A73FD932641CC8D00087FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A73FD952641CC8D00087FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A73FD9B2641CD0700087FFB /* Forca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forca.swift; sourceTree = "<group>"; };
+		3A73FD9D2641CE7800087FFB /* ResultadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadoViewController.swift; sourceTree = "<group>"; };
+		3A73FDA3264223A100087FFB /* forca1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forca1.png; sourceTree = "<group>"; };
+		3A73FDA4264223A100087FFB /* forca5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forca5.png; sourceTree = "<group>"; };
+		3A73FDA5264223A100087FFB /* forca6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forca6.png; sourceTree = "<group>"; };
+		3A73FDA6264223A100087FFB /* forca8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forca8.png; sourceTree = "<group>"; };
+		3A73FDA7264223A100087FFB /* forca10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forca10.png; sourceTree = "<group>"; };
+		3A73FDA8264223A100087FFB /* forca3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forca3.png; sourceTree = "<group>"; };
+		3A73FDA9264223A100087FFB /* forca7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forca7.png; sourceTree = "<group>"; };
+		3A73FDAA264223A100087FFB /* forca9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forca9.png; sourceTree = "<group>"; };
+		3A73FDAB264223A100087FFB /* forca0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forca0.png; sourceTree = "<group>"; };
+		3A73FDAC264223A100087FFB /* forca2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forca2.png; sourceTree = "<group>"; };
+		3A73FDAD264223A100087FFB /* forca4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forca4.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A73FD812641CC8800087FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A73FD7B2641CC8800087FFB = {
+			isa = PBXGroup;
+			children = (
+				3A73FD862641CC8800087FFB /* Jogo da Forca */,
+				3A73FD852641CC8800087FFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A73FD852641CC8800087FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A73FD842641CC8800087FFB /* Jogo da Forca.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A73FD862641CC8800087FFB /* Jogo da Forca */ = {
+			isa = PBXGroup;
+			children = (
+				3A73FDA22642238300087FFB /* imagens */,
+				3A73FDA12641CE9100087FFB /* controller */,
+				3A73FDA02641CE8D00087FFB /* view */,
+				3A73FD9F2641CE8600087FFB /* model */,
+				3A73FD872641CC8800087FFB /* AppDelegate.swift */,
+				3A73FD892641CC8800087FFB /* SceneDelegate.swift */,
+				3A73FD902641CC8D00087FFB /* Assets.xcassets */,
+				3A73FD952641CC8D00087FFB /* Info.plist */,
+			);
+			path = "Jogo da Forca";
+			sourceTree = "<group>";
+		};
+		3A73FD9F2641CE8600087FFB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3A73FD9B2641CD0700087FFB /* Forca.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3A73FDA02641CE8D00087FFB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3A73FD922641CC8D00087FFB /* LaunchScreen.storyboard */,
+				3A73FD8D2641CC8800087FFB /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3A73FDA12641CE9100087FFB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3A73FD8B2641CC8800087FFB /* MainViewController.swift */,
+				3A73FD9D2641CE7800087FFB /* ResultadoViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		3A73FDA22642238300087FFB /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				3A73FDAB264223A100087FFB /* forca0.png */,
+				3A73FDA3264223A100087FFB /* forca1.png */,
+				3A73FDAC264223A100087FFB /* forca2.png */,
+				3A73FDA8264223A100087FFB /* forca3.png */,
+				3A73FDAD264223A100087FFB /* forca4.png */,
+				3A73FDA4264223A100087FFB /* forca5.png */,
+				3A73FDA5264223A100087FFB /* forca6.png */,
+				3A73FDA9264223A100087FFB /* forca7.png */,
+				3A73FDA6264223A100087FFB /* forca8.png */,
+				3A73FDAA264223A100087FFB /* forca9.png */,
+				3A73FDA7264223A100087FFB /* forca10.png */,
+			);
+			path = imagens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A73FD832641CC8800087FFB /* Jogo da Forca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A73FD982641CC8D00087FFB /* Build configuration list for PBXNativeTarget "Jogo da Forca" */;
+			buildPhases = (
+				3A73FD802641CC8800087FFB /* Sources */,
+				3A73FD812641CC8800087FFB /* Frameworks */,
+				3A73FD822641CC8800087FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jogo da Forca";
+			productName = "Jogo da Forca";
+			productReference = 3A73FD842641CC8800087FFB /* Jogo da Forca.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A73FD7C2641CC8800087FFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3A73FD832641CC8800087FFB = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 3A73FD7F2641CC8800087FFB /* Build configuration list for PBXProject "Jogo da Forca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A73FD7B2641CC8800087FFB;
+			productRefGroup = 3A73FD852641CC8800087FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A73FD832641CC8800087FFB /* Jogo da Forca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A73FD822641CC8800087FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A73FDB6264223A100087FFB /* forca0.png in Resources */,
+				3A73FDB0264223A100087FFB /* forca6.png in Resources */,
+				3A73FD942641CC8D00087FFB /* LaunchScreen.storyboard in Resources */,
+				3A73FDB2264223A100087FFB /* forca10.png in Resources */,
+				3A73FDB4264223A100087FFB /* forca7.png in Resources */,
+				3A73FDB3264223A100087FFB /* forca3.png in Resources */,
+				3A73FDB8264223A100087FFB /* forca4.png in Resources */,
+				3A73FDB5264223A100087FFB /* forca9.png in Resources */,
+				3A73FDB1264223A100087FFB /* forca8.png in Resources */,
+				3A73FDAE264223A100087FFB /* forca1.png in Resources */,
+				3A73FD912641CC8D00087FFB /* Assets.xcassets in Resources */,
+				3A73FDB7264223A100087FFB /* forca2.png in Resources */,
+				3A73FDAF264223A100087FFB /* forca5.png in Resources */,
+				3A73FD8F2641CC8800087FFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A73FD802641CC8800087FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A73FD8C2641CC8800087FFB /* MainViewController.swift in Sources */,
+				3A73FD9C2641CD0700087FFB /* Forca.swift in Sources */,
+				3A73FD9E2641CE7800087FFB /* ResultadoViewController.swift in Sources */,
+				3A73FD882641CC8800087FFB /* AppDelegate.swift in Sources */,
+				3A73FD8A2641CC8800087FFB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A73FD8D2641CC8800087FFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A73FD8E2641CC8800087FFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A73FD922641CC8D00087FFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A73FD932641CC8D00087FFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A73FD962641CC8D00087FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A73FD972641CC8D00087FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A73FD992641CC8D00087FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jogo da Forca/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.ifpb.pdm.Jogo-da-Forca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A73FD9A2641CC8D00087FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jogo da Forca/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.ifpb.pdm.Jogo-da-Forca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A73FD7F2641CC8800087FFB /* Build configuration list for PBXProject "Jogo da Forca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A73FD962641CC8D00087FFB /* Debug */,
+				3A73FD972641CC8D00087FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A73FD982641CC8D00087FFB /* Build configuration list for PBXNativeTarget "Jogo da Forca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A73FD992641CC8D00087FFB /* Debug */,
+				3A73FD9A2641CC8D00087FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A73FD7C2641CC8800087FFB /* Project object */;
+}
